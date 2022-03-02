@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
-    <title>Curriculum vitae</title>
+    <title data-i18="сurriculum vitae">Curriculum vitae</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,17 +17,18 @@
     <script defer src="assets/js/theme.js"></script>
     <script defer src="assets/js/button.js"></script>
     <script defer src="assets/js/hamburger.js"></script>
+    <script type="module" src="assets/js/lang.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="wrapper">
         <div class="wrap__nav">
-          <a class="navig" href="#About_me">About me</a>
-          <a class="navig" href="#Code_example">Code example</a>
-          <a class="navig" href="#Education">Education</a>
-          <a class="navig" href="#My_skills">My skills</a>
-          <a class="navig" href="#Projects">Projects</a>
-          <a class="navig" href="#Contacts">Contacts</a>
+          <a class="navig" href="#About_me" data-i18="About me">About me</a>
+          <a class="navig" href="#Code_example" data-i18="Code example">Code example</a>
+          <a class="navig" href="#Education" data-i18="Education">Education</a>
+          <a class="navig" href="#My_skills" data-i18="My skills">My skills</a>
+          <a class="navig" href="#Projects" data-i18="Projects">Projects</a>
+          <a class="navig" href="#Contacts" data-i18="Contacts">Contacts</a>
         </div>
         <div class="line1"></div>
       </div>
@@ -38,15 +39,15 @@
           <div class="wrap_name">
             <div class="mobile_wrap">
               <div class="name">
-                <h2>Vladislav<br>Makarenko</h2>
+                <h2 data-i18="Name">Vladislav<br>Makarenko</h2>
               </div>
               <div class="text">
                 <img class="skills_pic" src="/assets/img/svg/me.svg" alt="logo">
-                <h1>JS | FE Junior Software Engineer<br>25 years old, Blagoveshensk</h1>
+                <h1 data-i18="Old">JS | FE Junior Software Engineer<br>25 years old, Blagoveshensk</h1>
               </div>
             </div>
             <div class="tablet_wrap">
-              <div onclick="setTimeout(teme, 1000)" class="theme__pic" data-sost='off'></div>
+              <div onclick="setTimeout(teme_but, 1000)" class="theme__pic" data-sost='off'></div>
               <div class="me1">
                 <div class="hamburger">
                   <div class="line line1"></div>
@@ -96,7 +97,11 @@
                 </div>
               </div>
             </div>
-            <div class="leng">RU | ENG</div>
+            <div class="lang">
+                <button class="header__lang" type="submit" value="ru" data-i18="ru">RU</button>
+                <div class="slesh">/</div>
+                <button class="header__lang" type="submit" value="en" data-i18="en">ENG</button>
+            </div>
           </div>
           <div class="pic_me photo" data-title="it`s me"></div>
         </div>

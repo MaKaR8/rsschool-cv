@@ -31,7 +31,7 @@
       font-family: "Gilroy-Bold";
       font-size: 24px;
       line-height: 30px;
-      width: 170px;
+      width: 185px;
       transition: all 1s;
    }
 
@@ -128,12 +128,18 @@
       line-height: 10px;
    }
 
-   .leng {
-      font-size: 16px;
-      line-height: 20px;
+   .lang {
+      position: relative;
+      font-size: 12px;
+      line-height: 14px;
       transform: rotate(-90deg);
-      margin: 25px -20px 0px 0;
+      padding: 0px 0px 0px 0px;
+      margin: 0px -27px 0px 0px;
    }
+
+   .wrap_name {
+   margin: 0 20px;
+}
 
    .pic_me {
    background: url(/assets/img/index1.jpg) no-repeat;
@@ -160,7 +166,7 @@
    .mobile_wrap{
       display: flex;
       flex-direction: column;
-      margin: 30px 0px 30px 20px;
+      margin: 30px 0px 30px 0px;
    }
 
    .form-control{
@@ -177,7 +183,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 50px;
+      width: 45px;
       height: 28px;
       cursor: pointer;
       user-select: none;
