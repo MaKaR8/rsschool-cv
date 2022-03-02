@@ -17,7 +17,7 @@ function teme_but(){
 }
 
 function teme(){
-      if(flag === 0){
+      if (flag === 0 || currentTheme ===''){
             root.dataset.sost = currentTheme;
             flag += 1;
       }
