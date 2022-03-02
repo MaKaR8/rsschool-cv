@@ -165,6 +165,17 @@ img {
   margin: 30px -20px 0px 0;
 }
 
+.photo:hover::after {
+  content: attr(data-title); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  left: 20%; top: 30%; /* Положение подсказки */
+  z-index: 1; /* Отображаем подсказку поверх других элементов */
+  background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+  font-size: 16px; /* Размер текста подсказки */
+  padding: 5px 10px; /* Поля */
+  border: 1px solid #333; /* Параметры рамки */
+}
+
 .pic_me {
   background: url(/assets/img/index1.jpg) no-repeat;
   background-size: 100%;
