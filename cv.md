@@ -15,7 +15,7 @@ I am 25 years old, I worked as an engineer. Only now I realized that I want to b
 ***
 
 ## Skills:
-- HTML5
+- HTML5 
 - CSS3
 - JS
 - Git
