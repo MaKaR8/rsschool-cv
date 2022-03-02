@@ -7,13 +7,13 @@ function teme_but(){
       // root.dataset.sost = currentTheme;
       if (root.dataset.sost === 'on') {
             root.dataset.sost = 'off';
+            lert(root.dataset.sost);
             localStorage.setItem("theme", root.dataset.sost);
-            alert(root.dataset.sost);
             teme();
       } else if (root.dataset.sost === 'off') {
             root.dataset.sost = 'on';
+            lert(root.dataset.sost);
             localStorage.setItem("theme", root.dataset.sost);
-            alert(root.dataset.sost);
             teme();
       }
 }
