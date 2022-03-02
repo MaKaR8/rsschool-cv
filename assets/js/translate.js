@@ -51,6 +51,7 @@ const langArr = {
     'Projects': 'Projects',
     'Contacts': 'Contacts',
     'Name': 'Vladislav Makarenko'
+    'Old': 'JS | FE Junior Software Engineer<br>25 years old, Blagoveshensk'
   }
   
 }
