@@ -138,7 +138,8 @@
    background: url(/assets/img/index1.jpg) no-repeat;
    background-size: 150%;
    background-position: -200px 20px;
-   margin: -20px 20px 0 20px;
+   margin: 0px 20px 0 20px;
+   padding-top: 20px;
    transition: all 1s;
    }
 
@@ -149,6 +150,7 @@
          background-size: 240%;
          background-position: -310px 20px;
          margin: 0 20px 0 20px;
+         padding-top: 20px;
          transition: all 1s;
       }
 
