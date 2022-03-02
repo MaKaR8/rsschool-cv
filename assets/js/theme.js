@@ -8,16 +8,18 @@ function teme_but(){
       if (root.dataset.sost === 'on') {
             root.dataset.sost = 'off';
             localStorage.setItem("theme", root.dataset.sost);
+            alert(root.dataset.sost);
             teme();
       } else if (root.dataset.sost === 'off') {
             root.dataset.sost = 'on';
             localStorage.setItem("theme", root.dataset.sost);
+            alert(root.dataset.sost);
             teme();
       }
 }
 
 function teme(){
-      if (flag === 0 || currentTheme !=''){
+      if (flag === 0){
             root.dataset.sost = currentTheme;
             flag += 1;
       }
