@@ -50,7 +50,7 @@ const langArr = {
     'My skills': 'My skills',
     'Projects': 'Projects',
     'Contacts': 'Contacts',
-    'Name': 'Vladislav Makarenko'
+    'Name': 'Vladislav Makarenko',
     'Old': 'JS | FE Junior Software Engineer<br>25 years old, Blagoveshensk'
   }
   
