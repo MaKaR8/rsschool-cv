@@ -49,7 +49,7 @@ const langArr = {
     'Contacts': 'Contacts',
     'Name': 'Vladislav Makarenko',
     'Old': 'JS | FE Junior Software Engineer<br>25 years old, Blagoveshensk',
-    'curriculum vitae': 'Curriculum vitae'
+    'сurriculum vitae': 'Curriculum vitae'
   }
   
 }
