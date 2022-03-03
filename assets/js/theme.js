@@ -18,7 +18,6 @@ function teme_but(){
 
 function teme(){
       if (flag === 0 && currentTheme != null){
-            console.log(currentTheme)
             root.dataset.sost = currentTheme;
             flag += 1;
       }
@@ -35,6 +34,7 @@ function teme(){
             skills.style.setProperty('--global-w', '#fff');
             skills.style.setProperty('--invert', '0%');
       }
+      console.log(root.dataset.sost);
 }
 teme()
 

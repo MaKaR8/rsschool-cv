@@ -1,6 +1,6 @@
 const langArr = {
   "ru": {
-    'ru': 'РУ',
+    'ru': 'РУC',
     'en': 'АНГЛ',
     'About me': 'Обо мне',
     'Code example': 'Пример кода',
@@ -9,16 +9,15 @@ const langArr = {
     'Projects': 'Проекты',
     'Contacts': 'Контакты',
     'Name': 'Владислав Макаренко',
-    'Old': 'JS | FE Junior Software Engineer<br>25 лет, Благовещенск',
-    'skill-title-1': 'Фотография',
-    'skill-text-1': 'Высококачественные фото в студии и на природе',
-    'skill-title-2': 'Видеосъемка',
-    'skill-text-2': 'Запечатлите лучшие моменты, чтобы они всегда оставались с вами',
-    'skill-title-3': 'Ретушь',
-    'skill-text-3': 'Я стремлюсь к тому, чтобы фотография превосходила реальность',
-    'skill-title-4': 'Звук',
-    'skill-text-4': 'Профессиональная запись звука для видео, рекламы, портфолио',
-    'winter': 'Зима',
+    'Old': 'JS | FE Junior Software Engineer<br>25 лет, г. Благовещенск',
+    'Hi': 'Привет, я Владислав – JS|FE разработчик из города Благовещенск. Я интересуюсь программированием и всем, что с ним связано.',
+    'I`m': 'Я учусь на курсах «JavaScript/Front-end» в The Rolling Scopes School. ',
+    'Ready': 'Готов реализовывать интересные проекты с хорошими людьми.',
+    'Now': 'Сейчас',
+    'University': 'Университет ТОГУ Техник-программист',
+    'College': 'Колледж БФЭК Техник-программист',
+    'course 0': 'RS School JS/ FRONT - END STAGE 0 - курс',
+    'course 1': 'RS School JS/ FRONT - END STAGE 1 - курс',
     'spring': 'Весна',
     'summer': 'Лето',
     'autumn': 'Осень',
@@ -37,13 +36,11 @@ const langArr = {
     'price-description-3-span-3': '50 отретушированных фото',
     'price-description-3-span-4': 'Готовность через 1 неделю',
     'price-description-3-span-5': 'Макияж, визаж, прическа',
-    'сurriculum vitae': 'Резюме',
-    'contact-me': 'Свяжитесь со мной',
-    'send-message': 'Отправить'
+    'сurriculum vitae': 'Резюме'
   },
   "en": {
     'en': 'ENG',
-    'ru': 'RU',
+    'ru': 'RUS',
     'About me': 'About me',
     'Code example': 'Code example',
     'Education': 'Education',
@@ -51,7 +48,8 @@ const langArr = {
     'Projects': 'Projects',
     'Contacts': 'Contacts',
     'Name': 'Vladislav Makarenko',
-    'Old': 'JS | FE Junior Software Engineer<br>25 years old, Blagoveshensk'
+    'Old': 'JS | FE Junior Software Engineer<br>25 years old, Blagoveshensk',
+    'curriculum vitae': 'Curriculum vitae'
   }
   
 }

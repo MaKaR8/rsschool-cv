@@ -29,10 +29,11 @@
 
    .name {
       font-family: "Gilroy-Bold";
-      font-size: 24px;
-      line-height: 30px;
+      font-size: 22px;
+      line-height: 26px;
       width: 185px;
       transition: all 1s;
+      margin-bottom: 5px;
    }
 
    .about_me {
@@ -63,6 +64,7 @@
       transition: all 400ms ease-out;
       filter: grayscale(95%) blur(0px);
       transform: scale(1);
+      z-index: 0;
    }
 
    .p{
@@ -234,6 +236,7 @@
       color: var(--global-b);
       font-style: normal;
       font-weight: normal;
+      display: flex;
    } 
 
    .menu__link:hover,
@@ -261,7 +264,7 @@
       width: 44px;
       height: 2px;
       transform: rotate(45deg) translate(0px, 0px);
-      transition: all 2s ease-in-out;
+      transition: all 1s ease-in-out;
    }
 
    .hamburger.open .menu1 {
@@ -270,7 +273,7 @@
       height: 800px;
       background: var(--global-w);
       z-index: 1;
-      transition: all 1s ease-in-out;
+      transition: all 0.5s ease-in-out;
    }
 
    .hamburger.open .menu__nav1 {

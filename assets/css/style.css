@@ -80,7 +80,7 @@ html {
 
 .header {
   background: var(--global-w);
-  height: 88px;
+  height: 89px;
   transition: all 0.5s;
 }
 
@@ -105,9 +105,9 @@ html {
   transition: all 0.3s;
 }
 
-.line {
-  height: 3px;
+.line_b {
   width: 100%;
+  height: 2px;
   background: var(--global-b);
 }
 
@@ -272,9 +272,13 @@ pre {
   margin: 30px 50px;
 }
 
+.info_education{
+  align-items: center;
+}
+
 .age_education {
   text-align: left;
-  font-size: 12px;
+  font-size: 8px;
 }
 
 /*Skills style*/

@@ -32,7 +32,7 @@
       margin-top: 80px;
       display: flex;
       font-family: 'Gilroy-Medium';
-      font-size: 8px;
+      font-size: 7px;
       line-height: 14px;
    }
 
@@ -110,6 +110,7 @@
       color: var(--global-b);
       font-style: normal;
       font-weight: normal;
+      display: flex;
    } 
 
    .menu__link:hover,
@@ -137,7 +138,7 @@
       width: 44px;
       height: 2px;
       transform: rotate(45deg) translate(0px, 0px);
-      transition: all 2s ease-in-out;
+      transition: all 1s ease-in-out;
    }
 
    .hamburger.open .menu1 {

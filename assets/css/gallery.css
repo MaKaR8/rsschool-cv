@@ -37,7 +37,7 @@
 	height: 100%;
 	object-fit: cover;
 	transition: all 400ms ease-out;
-   z-index: 2;
+   z-index: 1;
    filter: grayscale(95%) blur(2px);
    transform: scale(1.5);
 }
