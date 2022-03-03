@@ -7,19 +7,18 @@ function teme_but(){
       // root.dataset.sost = currentTheme;
       if (root.dataset.sost === 'on') {
             root.dataset.sost = 'off';
-            lert(root.dataset.sost);
             localStorage.setItem("theme", root.dataset.sost);
             teme();
       } else if (root.dataset.sost === 'off') {
             root.dataset.sost = 'on';
-            lert(root.dataset.sost);
             localStorage.setItem("theme", root.dataset.sost);
             teme();
       }
 }
 
 function teme(){
-      if (flag === 0){
+      if (flag === 0 && currentTheme != null){
+            console.log(currentTheme)
             root.dataset.sost = currentTheme;
             flag += 1;
       }
