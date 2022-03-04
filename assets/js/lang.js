@@ -36,7 +36,10 @@ function changeURLLanguage(lang) {
 
 function changeLanguage() {
    let hash = window.location.hash;
-   let elements = document.querySelectorAll('a, li, div, h1, h2, button');
+   let elements = document.querySelectorAll('input, label, li, div, h1, h2, a, button');
+   const you = document.querySelector('.you');
+   const currentLang = sessionStorage.getItem("you");
+   let flag = 0;
 
    hash = hash.substr(1);
    console.log(hash);
@@ -44,10 +47,16 @@ function changeLanguage() {
       location.href = window.location.pathname + '#en';
       location.reload();
    }
+   if (flag === 0 && currentLang != null) {
+      you.dataset.i18 = currentLang;
+      flag += 1;
+   }
    document.querySelector('title').innerHTML = langArr[hash]['сurriculum vitae'];
+
    for (let elem of elements) {
       if (elem.dataset.i18) {
          // console.log(elem.dataset.i18);
+         elem.placeholder = langArr[hash][elem.dataset.i18];
          elem.innerHTML = langArr[hash][elem.dataset.i18];
       }
    }
