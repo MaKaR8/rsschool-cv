@@ -42,8 +42,8 @@ const langArr = {
   "en": {
     'en': 'ENG',
     'ru': 'RUS',
-    'RU': 'eng',
-    'EN': 'rus',
+    'RU': 'rus',
+    'EN': 'eng',
     'About me': 'About me',
     'Code example': 'Code example',
     'Education': 'Education',
