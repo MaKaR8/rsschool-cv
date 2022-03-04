@@ -178,11 +178,12 @@ img {
 }
 
 .slesh{
-  margin: 0px 5px 0px 5px;
+  font-size: 16px;
+  margin: 2px 5px 0px 5px;
 }
 
 .photo:hover::after {
-  content: attr(data-title); /* Выводим текст */
+  content: attr(data-i18); /* Выводим текст */
   width: 120px;
   z-index: 1; /* Отображаем подсказку поверх других элементов */
   background: var(--global-w); /* Полупрозрачный цвет фона */

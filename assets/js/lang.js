@@ -38,6 +38,7 @@ function changeLanguage() {
    let hash = window.location.hash;
    let elements = document.querySelectorAll('input, label, li, div, h1, h2, a, button');
    const you = document.querySelector('.you');
+   const me = document.querySelector('.photo');
    const currentLang = sessionStorage.getItem("you");
    let flag = 0;
 
@@ -52,6 +53,8 @@ function changeLanguage() {
       flag += 1;
    }
    document.querySelector('title').innerHTML = langArr[hash]['сurriculum vitae'];
+
+   me.dataset.i18 = langArr[hash][me.dataset.i18];
 
    for (let elem of elements) {
       if (elem.dataset.i18) {

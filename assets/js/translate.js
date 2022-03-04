@@ -35,7 +35,9 @@ const langArr = {
     'enter e-mail': 'введите e-mail адрес',
     'Like': 'Я на',
     'Thank': 'Спасибо!',
+    'it`s m': 'это я', 'это я': '',
     'сurriculum vitae': 'Резюме'
+    
   },
   "en": {
     'en': 'ENG',
@@ -73,6 +75,7 @@ const langArr = {
     'enter e-mail': 'enter e-mail address',
     'Like': 'Like me on',
     'Thank': 'Thanks!',
+    'it`s m': 'it`s me', 'it`s me': '',
     'сurriculum vitae': 'Curriculum vitae'
   }
   
