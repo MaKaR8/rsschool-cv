@@ -295,6 +295,7 @@ pre {
 }
 
 .skills_item {
+  display: flex;
   font-size: 24px;
 }
 
