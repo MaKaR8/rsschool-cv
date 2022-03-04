@@ -1,6 +1,7 @@
 const skills = document.querySelector('body');
 const root = document.querySelector('.theme__pic');
 const currentTheme = localStorage.getItem("theme");
+let flag = 0;
 
 function teme_but(){
       // root.dataset.sost = currentTheme;
@@ -16,8 +17,9 @@ function teme_but(){
 }
 
 function teme(){
-      if (currentTheme != null){
+      if (flag === 0 && currentTheme != null){
             root.dataset.sost = currentTheme;
+            flag += 1;
       }
       if (root.dataset.sost === 'on') {
             root.style.setProperty('--theme-d2', 'url(/assets/img/svg/theme/Vector.svg) no-repeat center')
