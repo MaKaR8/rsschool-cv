@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/css/theme.css">
     <link rel="stylesheet" href="assets/css/tablet.css">
     <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/fon.css">
+    <script defer src="/assets/js/fon.js"></script>
     <link rel="icon" href="assets/img/q.png">
     <script type="module" defer src="assets/js/main.js"></script>
   </head>
@@ -100,7 +102,9 @@
                 <button class="header__lang" type="submit" value="en" data-i18="en">></button>
             </div>
           </div>
-          <div class="pic_me photo" data-i18="it`s m"></div>
+          <div class="grad">
+            <div class="pic_me photo" data-i18="it`s m"></div>
+          </div>
         </div>
       </section>
       <section class="about_me" id="About_me">
@@ -300,56 +304,56 @@
           </div>
         </div>
       </section>
-            <section class="contacts" id="Contacts">
-              <div class="wrapper">
-                <div class="name_block">
-                  <img class="skills_pic" src="/assets/img/svg/contacts_me.svg" alt="logo">
-                  <h2 data-i18="Contacts">Contacts</h2>
+      <section class="contacts" id="Contacts">
+        <div class="wrapper">
+          <div class="name_block">
+            <img class="skills_pic" src="/assets/img/svg/contacts_me.svg" alt="logo">
+            <h2 data-i18="Contacts">Contacts</h2>
+          </div>
+          <div class="wrapper_cont">
+            <div class="wrapper_cont">
+              <div data-i18="Want">Want to know more or just chat?</div>
+              <div class="you" data-i18="You">You are welcome!</div>
+            </div>
+            <button class="button_cont" id='but_send' data-i18="Send message">Send message</button>
+            <form action="mailto:makar22828@gmail.com" method="post" enctype="text/plain">
+              <div class="row">
+                <div class="form-group">
+                  <label for="name" data-i18="name">name: </label>
+                  <input type="text" id="name" class="form-control" placeholder="enter name" data-i18="enter name">
                 </div>
-                <div class="wrapper_cont">
-                  <div class="wrapper_cont">
-                    <div data-i18="Want">Want to know more or just chat?</div>
-                    <div class="you" data-i18="You">You are welcome!</div>
-                  </div>
-                  <button class="button_cont" id='but_send' data-i18="Send message">Send message</button>
-                  <form action="mailto:makar22828@gmail.com" method="post" enctype="text/plain">
-                    <div class="row">
-                      <div class="form-group">
-                        <label for="name" data-i18="name">name: </label>
-                        <input type="text" id="name" class="form-control" placeholder="enter name" data-i18="enter name">
-                      </div>
-                      <div class="form-group">
-                        <label for="email">e-mail: </label>
-                        <input type="email" id="email" class="form-control" placeholder="enter email addres" data-i18="enter e-mail">
-                      </div>
-                      <div class="form-group">
-                        <label class="control-label" for="comment" data-i18="comment" >comment: </label>
-                        <input type="text" id="comment" class="form-control" placeholder="enter comment" data-i18="enter comment">
-                      </div>
-                      <button type="submit" class="button_cont" id='but_sub' data-i18="Submit">Submit</button>
-                    </div>
-                  </form>
-                  <div class="wrapper_block">
-                    <a class="proj_foot" href="https://www.instagram.com/_makar50_/">
-                      <img class="cont_pic" src="/assets/img/svg/instagram.svg" alt="logo">
-                    </a>
-                    <a class="proj_foot" href="https://github.com/MaKaR8/">
-                      <img class="cont_pic" id="githab" src="/assets/img/svg/github.svg" alt="logo">
-                    </a>
-                    <a class="proj_foot" href="https://www.linkedin.com/in/vladislav-makarenko-47a7021aa/">
-                      <img class="cont_pic" src="/assets/img/svg/linkedin.svg" alt="logo">
-                    </a>
-                    <a class="proj_foot" href="https://www.codewars.com/users/MaKaR8">
-                      <img class="cont_pic" src="/assets/img/svg/codewars.svg" alt="logo">
-                    </a>
-                    <div class="wrap_icon">
-                      <div class="w" data-i18="Like">Like me on</div>
-                      <div class="w">Instagram, GitHub, LinkedIn, Codewars</div>
-                    </div>
-                  </div>
+                <div class="form-group">
+                  <label for="email">e-mail: </label>
+                  <input type="email" id="email" class="form-control" placeholder="enter email addres" data-i18="enter e-mail">
                 </div>
+                <div class="form-group">
+                  <label class="control-label" for="comment" data-i18="comment" >comment: </label>
+                  <input type="text" id="comment" class="form-control" placeholder="enter comment" data-i18="enter comment">
+                </div>
+                <button type="submit" class="button_cont" id='but_sub' data-i18="Submit">Submit</button>
               </div>
-            </section>
+            </form>
+            <div class="wrapper_block">
+              <a class="proj_foot" href="https://www.instagram.com/_makar50_/">
+                <img class="cont_pic" src="/assets/img/svg/instagram.svg" alt="logo">
+              </a>
+              <a class="proj_foot" href="https://github.com/MaKaR8/">
+                <img class="cont_pic" id="githab" src="/assets/img/svg/github.svg" alt="logo">
+              </a>
+              <a class="proj_foot" href="https://www.linkedin.com/in/vladislav-makarenko-47a7021aa/">
+                <img class="cont_pic" src="/assets/img/svg/linkedin.svg" alt="logo">
+              </a>
+              <a class="proj_foot" href="https://www.codewars.com/users/MaKaR8">
+                <img class="cont_pic" src="/assets/img/svg/codewars.svg" alt="logo">
+              </a>
+              <div class="wrap_icon">
+                <div class="w" data-i18="Like">Like me on</div>
+                <div class="w">Instagram, GitHub, LinkedIn, Codewars</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer" id="footer">
       <div class="footer__wrapper">
@@ -374,5 +378,5 @@
         </div>
       </div>
     </footer>
-</body>
+  </body>
 </html>
