@@ -15,7 +15,7 @@
   --theme-d1: url(/assets/img/svg/theme/carbon_sun-1.svg) no-repeat center;
   --theme-d2: url(/assets/img/svg/theme/carbon_sun.svg) no-repeat center;
 
-  --global-wrap: 1080px;
+  --global-wrap: 1440px;
 }
 
 @font-face {

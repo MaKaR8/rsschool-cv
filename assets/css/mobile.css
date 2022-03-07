@@ -191,7 +191,7 @@
       user-select: none;
       z-index: 2;
       margin: 10px 0px 0 0;
-      transition: all 1s;
+      transition: all 0.5s;
    }
 
    .line {
@@ -200,7 +200,7 @@
       background: var(--global-b);
       margin: 3px 0;
       z-index: 2;
-      transition: all 1s ease-in-out;
+      transition: all 0.5s ease-in-out;
    }
 
    .hamburger:hover .line{
@@ -250,7 +250,7 @@
       width: 44px;
       height: 2px;
       transform: rotate(-45deg) translate(0px, 0px);
-      transition: all 0.5s ease-in-out;
+      transition: all 0.3s ease-in-out;
       margin: 3px 0;
    }
 
@@ -264,7 +264,7 @@
       width: 44px;
       height: 2px;
       transform: rotate(45deg) translate(0px, 0px);
-      transition: all 1s ease-in-out;
+      transition: all 0.8s ease-in-out;
    }
 
    .hamburger.open .menu1 {

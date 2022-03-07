@@ -1,10 +1,16 @@
 const skills = document.querySelector('body');
 const root = document.querySelector('.theme__pic');
 const currentTheme = localStorage.getItem("theme");
-let flag = 0;
+let flag_t = 0;
+
+
+root.addEventListener("click", function () {
+      setTimeout(() => {
+            teme_but()
+      }, 1000);
+});
 
 function teme_but(){
-      // root.dataset.sost = currentTheme;
       if (root.dataset.sost === 'on') {
             root.dataset.sost = 'off';
             localStorage.setItem("theme", root.dataset.sost);
@@ -17,9 +23,9 @@ function teme_but(){
 }
 
 function teme(){
-      if (flag === 0 && currentTheme != null){
+      if (flag_t === 0 && currentTheme != null){
             root.dataset.sost = currentTheme;
-            flag += 1;
+            flag_t += 1;
       }
       if (root.dataset.sost === 'on') {
             root.style.setProperty('--theme-d2', 'url(/assets/img/svg/theme/Vector.svg) no-repeat center')
