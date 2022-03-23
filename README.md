@@ -1,2 +1,2 @@
 # rsschool-cv
-makar8-cv.netlify.app
+https://makar8-cv.netlify.app
