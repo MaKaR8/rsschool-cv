@@ -18,7 +18,7 @@ const langArr = {
     'Now': 'cейчас',
     'University': 'Университет ТОГУ техник - программист',
     'College': 'Колледж БФЭК техник - программист',
-    'course qa': 'Обучение тестированию программного обеспечения - курс',
+    'course qa': 'Тестирование программного обеспечения - курс',
     'course 0': 'RS School JS/ FRONT - END STAGE 0 - курс',
     'course 1': 'RS School JS/ FRONT - END STAGE 1 - курс',
     'Languges': 'Языки',
