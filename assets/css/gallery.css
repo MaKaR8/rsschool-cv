@@ -25,7 +25,7 @@
 	flex: 1 0 24rem;
 	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
 	margin: 1rem;
-	box-shadow: 0.3rem 0.4rem 2rem #070707;
+	box-shadow: 0rem 0rem 0.5rem #070707;
 	background: #f6f6f6;
 	overflow: hidden;
 }
