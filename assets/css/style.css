@@ -247,8 +247,8 @@ img {
   display: flex;
   justify-content: center;
   font-family: "Gilroy-Bold";
-  font-size: 34px;
-  line-height: 42px;
+  font-size: 30px;
+  line-height: 32px;
   text-align: center;
   padding: 39.69px 0 30.64px 0;
   width: 500px;
@@ -323,6 +323,10 @@ pre {
   width: 35px;
   filter: invert(var(--invert));
   margin: 0 10px 0 0px;
+}
+
+.scale{
+  transform: scale(0.8);
 }
 
 .certificate{
@@ -468,7 +472,7 @@ pre {
 
 .footer {
   background-color: rgb(0, 0, 0);
-  height: 150px;
+  height: 140px;
 }
 
 .footer__wrapper {
@@ -526,8 +530,8 @@ a {
 .footer__leng {
   text-decoration: none;
 
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 10px;
+  line-height: 10px;
   margin-top: 16px;
 
   color: #fff;
@@ -543,10 +547,10 @@ a {
   display: flex;
   justify-content: space-around;
 
-  font-size: 20px;
-  line-height: 50px;
+  font-size: 10px;
+  line-height: 54px;
   /* identical to box height, or 250% */
-  width: 169px;
+  width: 100px;
 
   color: #fff;
 
