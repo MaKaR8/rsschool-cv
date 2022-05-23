@@ -1,0 +1,200 @@
+@media (min-width: 600px) and (max-width: 768px) {
+
+   * {
+      outline: 0px solid rgb(17, 0, 255);
+   }
+
+   body {
+      font-family: "Gilroy-Medium";
+      font-size: 16px;
+      color: var(--global-b);
+   }
+
+   .theme__pic{
+      margin-top: 35px;
+   }
+
+   .header{
+      display: none;
+   }
+
+   .me1{
+      display: flex;
+   }
+
+   .skills_pic {
+      width: 30px;
+      filter: invert(var(--invert)) contrast(100%);
+      margin: 0 10px 0 15px;
+   }
+
+   .text{
+      margin-top: 80px;
+      display: flex;
+      font-family: 'Gilroy-Medium';
+      font-size: 7px;
+      line-height: 14px;
+   }
+
+   .lang {
+      font-size: 16px;
+      line-height: 20px;
+      margin: 0px -32px 0px 0;
+   }
+
+   .theme__pic{
+      margin: 0px 0 15px 0px;
+   }
+
+   .name {
+   font-family: "Gilroy-Bold";
+   line-height: 36px;
+   font-size: 32px;
+   width: 250px;
+   margin: 38px 0 0 0;
+   }
+
+   .hamburger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 28px;
+      cursor: pointer;
+      user-select: none;
+      z-index: 2;
+      margin: 4px 0px 0 0;
+      transition: all 1s;
+   }
+
+   .line {
+      width: 44px;
+      height: 3px;
+      background: var(--global-b);
+      margin: 3px 0;
+      z-index: 2;
+      transition: all 1s ease-in-out;
+   }
+
+   .hamburger:hover .line{
+      background: #BDAE82;
+      transition: all 0.5s;
+   }
+
+
+   .menu {
+      background: rgba(0, 0, 0, 0.486);
+      z-index: 1;
+   }
+
+   .header__list {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      z-index: 2;
+   }
+
+   .header-nav{
+      position: absolute;
+      font-size: 0px;
+      z-index: 1;
+   }
+
+   .menu__nav{
+      display: none;
+   }
+
+   .menu__link{
+      text-decoration: none;
+      color: var(--global-b);
+      font-style: normal;
+      font-weight: normal;
+      display: flex;
+   } 
+
+   .menu__link:hover,
+   .menu__link:focus,
+   .menu__link:active {
+      color: #BDAE82;
+   }
+
+   .hamburger.open .line1 {
+      position: fixed;
+      width: 44px;
+      height: 2px;
+      transform: rotate(-45deg) translate(0px, 0px);
+      transition: all 0.5s ease-in-out;
+      margin: 3px 0;
+   }
+
+   .hamburger.open .line2 {
+      opacity: 0;
+      transition: all 1s ease-in-out;
+   }
+
+   .hamburger.open .line3 {
+      position: fixed;
+      width: 44px;
+      height: 2px;
+      transform: rotate(45deg) translate(0px, 0px);
+      transition: all 1s ease-in-out;
+   }
+
+   .hamburger.open .menu1 {
+      position: fixed;
+      width: 620px;
+      height: 1024px;
+      background: var(--global-w);
+      z-index: 1;
+      transition: all 1s ease-in-out;
+   }
+
+   .hamburger.open .menu__nav1 {
+      display: flex;
+      position: fixed;
+      font-size: 18px;
+      line-height: 55px;
+
+      width: 450px;
+      
+      margin-top: 250px;
+
+      z-index: 1;
+      transition: margin-top 0.5s ease-in-out;
+   }
+
+   .footer__wrapper {
+      max-width: var(--global-wrap);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .footer__git{
+      margin: 0;
+   }
+
+   .footer__rss{
+      margin: 0;
+      line-height: 0px;
+      margin-bottom: 20px;
+   }
+
+   .footer__leng{
+      margin: 0px;
+   }
+
+   .footer__links {
+      display: flex;
+      justify-content: space-around;
+      margin: 0px 0px 0 0px;
+   }
+
+   .navig_foot {
+      margin: 0px 0 0px 0;
+   }
+
+}

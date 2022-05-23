@@ -1,0 +1,19 @@
+.theme__pic{
+   width: 45px;
+   height: 45px;
+   margin: 0px 0 0px 0px;
+   background: var(--theme-d2);
+   transform: rotate(0deg) translate(0px, 0px);
+   transition: all 2s ease-in-out;
+   cursor: help;
+}
+
+/* .theme__pic:hover, */
+.theme__pic:active {
+   transform: rotate(1440deg) translate(0px, 0px);
+   transition: all 0s ease-in-out;
+}
+
+/* .theme__pic:hover{
+  background:  var(--theme-d1);
+} */
